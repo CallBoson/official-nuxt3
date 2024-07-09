@@ -136,7 +136,6 @@
 <script setup>
 import Copyright from "~/components/Copyright.vue";
 import { ChevronLeftIcon } from "@heroicons/vue/24/outline";
-import { useSign } from "~/hooks/useSign";
 import IconLogo from "~/assets/icons/logo.svg";
 import useImgHost from "~/hooks/useImgHost";
 const { makeImgHost } = useImgHost();
@@ -161,18 +160,12 @@ const hasResult = ref(false);
 
 onMounted(async () => {
   if (query.sn) {
-    const params = useSign({ sn_code: query.sn });
-    const { data } = await $fetch("/api/goods/checkSnCode", {
-      method: "GET",
-      params,
-    });
-    for (const key in verifyData) {
-      if (Object.hasOwn(data, key)) {
-        verifyData[key] = data[key];
-      } else {
-        verifyData[key] = "";
-      }
-    }
+    // 模拟数据
+    verifyData.sn_code = query.sn;
+    verifyData.goods_name = "测试商品";
+    verifyData.goods_main_img = "/product/1.jpg";
+    verifyData.goods_sixnine_code = "123456789";
+
     hasResult.value = true;
 
     // pc添加翻转效果

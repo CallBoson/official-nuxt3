@@ -88,10 +88,10 @@
         </Popover>
       </ul>
 
-      <!-- <I18n
+      <I18n
         class="sm:relative absolute left-0"
-        :class="{ invert: currentPage === 7 }"
-      /> -->
+        :class="{ invert: [3, 7].includes(currentPage) }"
+      />
     </div>
 
     <!-- 小屏——下拉菜单按钮 -->
