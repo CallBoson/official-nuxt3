@@ -1,0 +1,23 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev --host",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "devDependencies": {
+    "@heroicons/vue": "^2.0.18",
+    "@nuxtjs/i18n": "^8.0.0-rc.5",
+    "@nuxtjs/tailwindcss": "^6.9.4",
+    "nuxt": "^3.8.1",
+    "nuxt-simple-robots": "^3.1.9",
+    "nuxt-simple-sitemap": "^3.4.1",
+    "nuxt-svgo": "^3.6.0"
+  },
+  "dependencies": {
+    "js-md5": "^0.8.3"
+  }
+}
