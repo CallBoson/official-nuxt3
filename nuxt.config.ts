@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   },
   site: {
     // nuxt-simple-sitemap - 自动生成sitemap的配置
-    // url: "https://ugloss.com",
+    url: "http://official-nuxt3.jiabao.online",
   },
   i18n: {
     vueI18n: "./i18n.config.ts",

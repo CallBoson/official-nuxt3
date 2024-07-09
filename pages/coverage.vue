@@ -163,7 +163,7 @@ onMounted(async () => {
     // 模拟数据
     verifyData.sn_code = query.sn;
     verifyData.goods_name = "测试商品";
-    verifyData.goods_main_img = "/product/1.jpg";
+    verifyData.goods_main_img = "https://dummyimage.com/500x500/000/fff.png";
     verifyData.goods_sixnine_code = "123456789";
 
     hasResult.value = true;
