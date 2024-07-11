@@ -1,7 +1,9 @@
 # 🚀 基于 Nuxt3.js 的全屏滚动企业官网模板
 
-> 该项目基于某公司定制，职位接口、图片资源皆为线上资源，若您需要使用，请按自身需要修改。
+> 该项目基于某公司定制，图片资源皆为线上资源，若您需要使用，请按自身需要修改。
 > 该项目已经过多次优化，细节性较强
+
+> 此外还有一个基于Astro企业官网，感兴趣可以到 [https://github.com/CallBoson/official-astro](https://github.com/CallBoson/official-astro)
 
 若您喜欢该项目，可以给我一个 Star ⭐️ ，非常感谢！
 
