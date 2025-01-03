@@ -7,7 +7,7 @@
 
 若您喜欢该项目，可以给我一个 Star ⭐️ ，非常感谢！
 
-## 线上体验：[http://official-nuxt3.jiabao.online/](http://official-nuxt3.jiabao.online/)
+## 线上体验（网站已过期）：[http://official-nuxt3.jiabao.online/](http://official-nuxt3.jiabao.online/)
 
 ## lighthouse 首屏测试
 
